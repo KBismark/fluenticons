@@ -35,4 +35,13 @@
 
   //Export base function
   Breaker.expot = { FluentSolids };
+
+  //Allow the require method to be set on the window object
+  //This will allow importing with the require method
+  //Importing via `require()` only requires `FluentSolids` as argument rather
+  //than providing the url every time you need to import
+  Breaker.useRequire({
+    FluentSolids:
+      "https://cdn.jsdelivr.net/gh/KBismark/fluenticons/base.min.js",
+  });
 })();
