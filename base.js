@@ -40,6 +40,8 @@
   //This will allow importing with the require method
   //Importing via `require()` only requires `FluentSolids` as argument rather
   //than providing the url every time you need to import
+  //Read more on this functionality on the IMEX repo
+  //https://github.com/KBismark/imexjs
   Breaker.useRequire({
     FluentSolids:
       "https://cdn.jsdelivr.net/gh/KBismark/fluenticons/base.min.js",
